@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 91585993}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,7 +173,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 91585991}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 53.47, y: -0.67, z: 0}
+  m_LocalPosition: {x: 53.71, y: -2.14, z: 0}
   m_LocalScale: {x: 317.08936, y: 88.07576, z: 75.24376}
   m_Children: []
   m_Father: {fileID: 628900099}
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 323329238}
   m_Layer: 0
   m_Name: Plataforma 1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,7 +588,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d58ada4cdabd4c14997ea0bc0ce62fad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.06
+      value: 11.59
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d58ada4cdabd4c14997ea0bc0ce62fad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1008,8 +1008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b73ba2e46fbc142a225e8e28be4947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NemT: {fileID: 831181410}
-  CamT: {fileID: 0}
+  target: {fileID: 831181410}
+  smoothTime: 0.4
 --- !u!1 &579175758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 628900099}
   m_Layer: 0
   m_Name: Plataforma 1 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1163,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c0fd4e379404e2418ba193ddbe9fa31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.79
+      value: 12.32
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7c0fd4e379404e2418ba193ddbe9fa31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1280,6 +1280,7 @@ GameObject:
   - component: {fileID: 831181411}
   - component: {fileID: 831181408}
   - component: {fileID: 831181407}
+  - component: {fileID: 831181412}
   m_Layer: 0
   m_Name: "N\xEAmesis-animada"
   m_TagString: Untagged
@@ -1363,14 +1364,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 831181408}
   Speed: 5
-  Pulo: 10
+  Pulo: 6
   NemeT: {fileID: 831181410}
   NemeA: {fileID: 831181409}
-  isGrounded: 0
-  GroundCheck: {fileID: 0}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 0
+  gatilho: {fileID: 831181412}
+--- !u!135 &831181412
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831181406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.61388034
+  m_Center: {x: 8.2373004e-21, y: -0.45, z: 0.00000076555574}
 --- !u!1001 &839175387
 Prefab:
   m_ObjectHideFlags: 0
@@ -1429,6 +1438,10 @@ Prefab:
     - target: {fileID: 400030, guid: f50c38d762ea8f44291d57849b9742c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -179.81601
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: f50c38d762ea8f44291d57849b9742c0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c38d762ea8f44291d57849b9742c0, type: 3}
@@ -1548,7 +1561,7 @@ GameObject:
   - component: {fileID: 969555448}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1622,8 +1635,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020000009, y: 0.020000001, z: 0.039228734}
-  m_Center: {x: 0.0003423914, y: -0.0000000027069715, z: -0.010401614}
+  m_Size: {x: 0.020000009, y: 0.020000001, z: 0.039259914}
+  m_Center: {x: 0.0003423914, y: -0.0000000027069718, z: -0.010386033}
 --- !u!1 &972408616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,7 +2501,7 @@ GameObject:
   - component: {fileID: 1698888099}
   m_Layer: 0
   m_Name: Plataforma 1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2522,7 +2535,7 @@ GameObject:
   - component: {fileID: 1730425747}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2535,7 +2548,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730425745}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 54.2, y: 0.02, z: -0}
+  m_LocalPosition: {x: 54.34, y: -0.85, z: -0}
   m_LocalScale: {x: 317.08936, y: 88.07576, z: 75.24376}
   m_Children: []
   m_Father: {fileID: 1698888099}

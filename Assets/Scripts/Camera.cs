@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour {
 
-    public Transform NemT;
-    public Transform CamT;
+  	public Transform target;
+    public float smoothTime = 0.3F;
+    private Vector3 velocity = Vector3.zero;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Update()
+    {
+        // Define a target position above and behind the target transform
+        Vector3 targetPosition = new Vector3(target.position.x, target.position.y, -9);
 
-        transform.position = new Vector3(NemT.position.x, NemT.position.y, -8);
-		
-	}
+        // Smoothly move the camera towards that target position
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+    }
 }

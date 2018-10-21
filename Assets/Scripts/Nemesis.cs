@@ -9,10 +9,10 @@ public class Nemesis : MonoBehaviour {
     public float Pulo;
     public Transform NemeT;
     public Animator NemeA;
-    private bool jumped;
-    public bool isGrounded;
-    public Transform GroundCheck;
-    public LayerMask whatIsGround;
+
+    public Collider gatilho;
+
+    private bool IsGrounded;
 
 
 
@@ -23,7 +23,7 @@ public class Nemesis : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		IsGrounded = true;
 	}
 	
 	// Update is called once per frame
@@ -33,10 +33,11 @@ public class Nemesis : MonoBehaviour {
 			Application.LoadLevel("Morte");
 		}
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump") && IsGrounded == true)
         {
             NemeA.SetTrigger("jump");
-            transform.Translate(0, Pulo * Time.deltaTime, 0);
+            rb.AddForce(0, Pulo, 0, ForceMode.Impulse);
+            IsGrounded = false;
             
         } 
 
@@ -66,7 +67,15 @@ public class Nemesis : MonoBehaviour {
 
         }
 
+
+
       
+	}
+	void OnTriggerEnter(Collider collider){
+		if (collider.tag =="Ground") {
+			IsGrounded = true;
+
+		}
 	}
 
    
