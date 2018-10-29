@@ -9,6 +9,7 @@ public class Nemesis : MonoBehaviour {
     public float Pulo;
     public Transform NemeT;
     public Animator NemeA;
+    public float currentTime;
 
     public Collider gatilho;
 
@@ -24,20 +25,23 @@ public class Nemesis : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		IsGrounded = true;
+		currentTime = 1.5f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		currentTime += Time.deltaTime;
 
 		if(transform.position.y <= 0){
 			Application.LoadLevel("Morte");
 		}
 
-        if (Input.GetButton("Jump") && IsGrounded == true)
+        if (Input.GetButton("Jump") && IsGrounded == true && currentTime >= 1.0f)
         {
             NemeA.SetTrigger("jump");
             rb.AddForce(0, Pulo, 0, ForceMode.Impulse);
             IsGrounded = false;
+            currentTime = 0;
             
         } 
 

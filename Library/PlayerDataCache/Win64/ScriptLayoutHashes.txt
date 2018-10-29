@@ -1,12 +1,11 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Cliente Especial/Desktop/Geometrys Revenge/Beta-Final/Geometry's Revenge.exe
+C:/Users/Cliente Especial/Desktop/Geometrys Revenge/Fase-1/Geometry's Revenge.exe
 SceneListBegin?
-Assets/Scenes/Abertura.unity
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/Fase-1.unity
 Assets/Scenes/Morte.unity
 SceneListEnd?
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Espinho
+5fc762af426ebd0b5f99a38be6f2440c Assembly-CSharp.dll:.Espinho
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -88,7 +87,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-87afd931be6a713d64d8be4815fa4a0a Assembly-CSharp.dll:.Camera
+c312db43d9bd7428c6fa49fbaae67e89 Assembly-CSharp.dll:.Camera
 93ef18d84c40fc2335ab4ab4245949f7 Assembly-CSharp.dll:.Cutscene
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -275,7 +274,7 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-a7189455a0f2a5ffbb90be2415137840 Assembly-CSharp.dll:.Nemesis
+bc918a20f7b5a89c06a91d784ebf84a2 Assembly-CSharp.dll:.Nemesis
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -309,3 +308,5 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Colisor_espinhos
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Coin

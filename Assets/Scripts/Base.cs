@@ -16,10 +16,11 @@ public class Base : MonoBehaviour {
 		//Rigidbody.useGravity = true;
 
 		}
-		void OnTriggerEnter(Collider coll)
+		 void OnTriggerEnter(Collider coll)
     {
         if (coll.attachedRigidbody)
             Rigidbody.useGravity = true;
-    }
+    } 
+ 
 	}
 
