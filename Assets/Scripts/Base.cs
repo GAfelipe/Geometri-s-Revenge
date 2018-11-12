@@ -5,6 +5,15 @@ using UnityEngine;
 public class Base : MonoBehaviour {
 	public Rigidbody Rigidbody;
 	public Collider coll;
+	public AudioClip downSound;
+    private AudioSource source;
+
+	void Awake ()
+   	{
+       	source = GetComponent<AudioSource>();
+       
+    }
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,8 +27,10 @@ public class Base : MonoBehaviour {
 		}
 		 void OnTriggerEnter(Collider coll)
     {
-        if (coll.attachedRigidbody)
+        if (coll.attachedRigidbody){
             Rigidbody.useGravity = true;
+            source.PlayOneShot(downSound,1F);
+        }
     } 
  
 	}

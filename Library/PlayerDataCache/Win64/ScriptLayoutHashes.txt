@@ -1,9 +1,10 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Cliente Especial/Desktop/Geometrys Revenge/Fase-1/Geometry's Revenge.exe
+C:/Users/Cliente Especial/Desktop/Geometrys Revenge/Boss1/Geometry's Revenge.exe
 SceneListBegin?
 Assets/Scenes/Fase-1.unity
 Assets/Scenes/Morte.unity
+Assets/Scenes/Boss.unity
 SceneListEnd?
 5fc762af426ebd0b5f99a38be6f2440c Assembly-CSharp.dll:.Espinho
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -194,12 +195,12 @@ c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
-d34cf11aca3f99e3143df40a4597fd36 Assembly-CSharp.dll:.Base
+d404ae0023df333b67820049d18fb832 Assembly-CSharp.dll:.Base
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Estacas
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
-971a5e8fb76d00969612634e480237f9 Assembly-CSharp.dll:.Spawn
+43aeef3075fcbc87276f89569b55ccc4 Assembly-CSharp.dll:.Spawn
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
-444c9bb29809338b0e61c292b0595b83 Assembly-CSharp.dll:.PlataformaQ
+bac8956e926b28aed2de1ee2b2f26a1a Assembly-CSharp.dll:.PlataformaQ
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -228,6 +229,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 70f7dc248db3379548a88e8d4fa049f8 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Colisor_espinhos
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -236,9 +238,11 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Estalactite
-57d92c920843d579e1a83012aaf23b17 Assembly-CSharp.dll:.bullet
+a69e94f020a35f5535ae3fb44c4fc943 Assembly-CSharp.dll:.bullet
+0d0d879addbffe0c3ddce8816ee3688a Assembly-CSharp.dll:.Coin
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
+9b06c2de052c8386b350e95a2ee5e181 Assembly-CSharp.dll:.Boss
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -274,7 +278,7 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-bc918a20f7b5a89c06a91d784ebf84a2 Assembly-CSharp.dll:.Nemesis
+579d9eff11a4651d9fb59a31f40995cc Assembly-CSharp.dll:.Nemesis
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -308,5 +312,7 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Colisor_espinhos
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Coin
+4a6fc58b713dd488d6a3d55daa424ba6 Assembly-CSharp.dll:.Cristal
+092aae8f53eed529e75cd981e8c552e1 Assembly-CSharp.dll:.SpawnBoss
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Estalactite1
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Bandeira

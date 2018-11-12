@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour {
 
+	public AudioClip coinSound;
+    private AudioSource source;
+	
+
+	void Awake ()
+   	{
+       source = GetComponent<AudioSource>();
+       
+    }
 
 
 	// Use this for initialization
@@ -20,6 +29,7 @@ public class Coin : MonoBehaviour {
     {
         if(col.gameObject.name == "Nêmesis-animada")
         {
+        	source.PlayOneShot(coinSound,1F);
             Destroy (transform.gameObject);
         }
     }

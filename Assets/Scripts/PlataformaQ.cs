@@ -8,6 +8,15 @@ public class PlataformaQ : MonoBehaviour {
 	private int x;
 	public Rigidbody Rigidbody;
 
+	public AudioClip brokenSound;
+    private AudioSource source;
+
+    void Awake ()
+   	{
+       source = GetComponent<AudioSource>();
+       
+    }
+
 	// Use this for initialization
 	void Start () {
 
@@ -20,6 +29,7 @@ public class PlataformaQ : MonoBehaviour {
 	void Update () {
 		if(x == 1){
 			anim.SetBool("touch", true);
+
 		}
 
 		if(x==2){
@@ -33,6 +43,7 @@ public class PlataformaQ : MonoBehaviour {
         if(col.gameObject.name == "Nêmesis-animada")
         {
           x+=1; 
+          source.PlayOneShot(brokenSound,1F);
         }
     }
 }

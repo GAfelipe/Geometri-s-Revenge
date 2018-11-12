@@ -10,26 +10,32 @@ public class Nemesis : MonoBehaviour {
     public Transform NemeT;
     public Animator NemeA;
     public float currentTime;
-
-    public Collider gatilho;
-
+	public Collider gatilho;
     private bool IsGrounded;
+    public bool direita;
 
+    public AudioClip jumpSound;
+    private AudioSource source;
+    private float volLowRange = .5f;
+    private float volHighRange = 1.0f;
 
 
     
    
+    void Awake () {
 
-
-
+		source = GetComponent<AudioSource>();
+	}
 	// Use this for initialization
 	void Start () {
 		IsGrounded = true;
 		currentTime = 1.5f;
+		direita = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
 		currentTime += Time.deltaTime;
 
 		if(transform.position.y <= 0){
@@ -38,6 +44,7 @@ public class Nemesis : MonoBehaviour {
 
         if (Input.GetButton("Jump") && IsGrounded == true && currentTime >= 1.0f)
         {
+            source.PlayOneShot(jumpSound,0.5F);
             NemeA.SetTrigger("jump");
             rb.AddForce(0, Pulo, 0, ForceMode.Impulse);
             IsGrounded = false;
@@ -50,6 +57,7 @@ public class Nemesis : MonoBehaviour {
             transform.Translate(0, 0, Speed * Time.deltaTime);
             transform.eulerAngles = new Vector3(0, 90, 0);
             NemeA.SetBool ("Andar", true);
+            direita = true;
 
          
 
@@ -60,6 +68,7 @@ public class Nemesis : MonoBehaviour {
             transform.Translate(0, 0, Speed * Time.deltaTime);
             transform.eulerAngles = new Vector3(0, 270, 0);
             NemeA.SetBool("Andar", true);
+            direita = false;
 
 
             
@@ -80,7 +89,12 @@ public class Nemesis : MonoBehaviour {
 			IsGrounded = true;
 
 		}
+		if (collider.tag =="estalactite") {
+			Application.LoadLevel("Morte");
+
+		}
 	}
+	
 
    
 }
