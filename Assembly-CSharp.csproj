@@ -53,25 +53,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\Bandeira.cs" />
      <Compile Include="Assets\Scripts\Base.cs" />
      <Compile Include="Assets\Scripts\Boss.cs" />
      <Compile Include="Assets\Scripts\bullet.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\ChangeColor.cs" />
      <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Colisor_espinhos.cs" />
      <Compile Include="Assets\Scripts\Cristal.cs" />
      <Compile Include="Assets\Scripts\Cubo.cs" />
      <Compile Include="Assets\Scripts\Cutscene.cs" />
+     <Compile Include="Assets\Scripts\DragMe.cs" />
+     <Compile Include="Assets\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\Espinho.cs" />
      <Compile Include="Assets\Scripts\Estacas.cs" />
      <Compile Include="Assets\Scripts\Estalactite.cs" />
      <Compile Include="Assets\Scripts\Estalactite1.cs" />
+     <Compile Include="Assets\Scripts\Menu\NewGame.cs" />
      <Compile Include="Assets\Scripts\Nemesis.cs" />
+     <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\PlataformaQ.cs" />
+     <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Scripts\SpawnBoss.cs" />
+     <Compile Include="Assets\Scripts\TiltWindow.cs" />
+     <None Include="Assets\Menu-Background\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Menu-Background\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
