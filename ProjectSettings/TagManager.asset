@@ -11,6 +11,7 @@ TagManager:
   - Parede2
   - estalactite
   - Bandeira
+  - Coin
   layers:
   - Default
   - TransparentFX

@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Abertura.unity
-    guid: a507e8db91b578e43b2964a01e82ea32
+    path: Assets/Scenes/Menu 3D.unity
+    guid: fa0913115ac1d4fba8b9d10280f4b04d
   - enabled: 1
     path: Assets/Scenes/Fase-1.unity
     guid: 051a9f617b8aee74f94174f0bfa37758
+  - enabled: 1
+    path: Assets/Scenes/Conquistas.unity
+    guid: 27837536a47b94d4aaa10448222934f2
   - enabled: 1
     path: Assets/Scenes/Morte.unity
     guid: dc5c5398bf36d67408738adc44bfb1a3
