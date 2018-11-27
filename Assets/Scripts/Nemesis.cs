@@ -14,6 +14,19 @@ public class Nemesis : MonoBehaviour {
     private bool IsGrounded;
     public bool direita;
 
+    public static int pontos1;
+    public static int pontos2;
+    public static int pontos3;
+    public static int pontos4;
+    public static int pontos5;
+    public static int pontos6;
+    public static int pontos7;
+    public static int pontos8;
+    public static int pontos9;
+
+    public int NumeroCena;
+
+
     public AudioClip jumpSound;
     private AudioSource source;
     private float volLowRange = .5f;
@@ -31,12 +44,15 @@ public class Nemesis : MonoBehaviour {
 		IsGrounded = true;
 		currentTime = 1.5f;
 		direita = true;
+
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		currentTime += Time.deltaTime;
+		
 
 		if(transform.position.y <= 0){
 			Application.LoadLevel("Morte");
@@ -93,7 +109,107 @@ public class Nemesis : MonoBehaviour {
 			Application.LoadLevel("Morte");
 
 		}
+		if (collider.tag =="Coin") {
+			if(NumeroCena == 1){
+				pontos1 += 1;
+			}
+			
+
+			if(NumeroCena == 2){
+				pontos2 += 1;
+			}
+
+			if(NumeroCena == 3){
+				pontos3 += 1;
+			}
+
+			if(NumeroCena == 4){
+				pontos4 += 1;
+			}
+
+			if(NumeroCena == 5){
+				pontos5 += 1;
+			}
+
+			if(NumeroCena == 6){
+				pontos6 += 1;
+			}
+
+			if(NumeroCena == 7){
+				pontos7 += 1;
+			}
+
+			if(NumeroCena == 8){
+				pontos8 += 1;
+			}
+
+			if(NumeroCena == 9){
+				pontos9 += 1;
+			}
+			
+
+		}
+
+		//-------------------------------------------------------------------------------------
+
+		if (collider.tag =="Bandeira") {
+			if(NumeroCena == 1){
+				if(PlayerPrefs.GetInt("current1")<pontos1){
+					PlayerPrefs.SetInt("current1", pontos1);
+				}
+			}
+
+			if(NumeroCena == 2){
+				if(PlayerPrefs.GetInt("current2")<pontos2){
+					PlayerPrefs.SetInt("current2", pontos2);
+				}
+			}
+
+			if(NumeroCena == 3){
+				if(PlayerPrefs.GetInt("current3")<pontos3){
+					PlayerPrefs.SetInt("current3", pontos3);
+				}
+			}
+
+			if(NumeroCena == 4){
+				if(PlayerPrefs.GetInt("current4")<pontos4){
+					PlayerPrefs.SetInt("current4", pontos4);
+				}
+			}
+
+			if(NumeroCena == 5){
+				if(PlayerPrefs.GetInt("current5")<pontos5){
+					PlayerPrefs.SetInt("current5", pontos5);
+				}
+			}
+
+			if(NumeroCena == 6){
+				if(PlayerPrefs.GetInt("current6")<pontos6){
+					PlayerPrefs.SetInt("current6", pontos6);
+				}
+			}
+
+			if(NumeroCena == 7){
+				if(PlayerPrefs.GetInt("current7")<pontos7){
+					PlayerPrefs.SetInt("current7", pontos7);
+				}
+			}
+
+			if(NumeroCena == 8){
+				if(PlayerPrefs.GetInt("current8")<pontos8){
+					PlayerPrefs.SetInt("current8", pontos8);
+				}
+			}
+
+			if(NumeroCena == 9){
+				if(PlayerPrefs.GetInt("current9")<pontos9){
+					PlayerPrefs.SetInt("current9", pontos9);
+				}
+			}
+
+		}
 	}
+
 	
 
    

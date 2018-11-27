@@ -73,7 +73,10 @@
      <Compile Include="Assets\Scripts\Estacas.cs" />
      <Compile Include="Assets\Scripts\Estalactite.cs" />
      <Compile Include="Assets\Scripts\Estalactite1.cs" />
+     <Compile Include="Assets\Scripts\Menu\Conquistas.cs" />
      <Compile Include="Assets\Scripts\Menu\NewGame.cs" />
+     <Compile Include="Assets\Scripts\Menu\Pontos.cs" />
+     <Compile Include="Assets\Scripts\Menu\Voltar.cs" />
      <Compile Include="Assets\Scripts\Nemesis.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
      <Compile Include="Assets\Scripts\PlataformaQ.cs" />

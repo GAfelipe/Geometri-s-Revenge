@@ -13,11 +13,11 @@ public class Bandeira : MonoBehaviour {
 	void Update () {
 		
 	}
-		void OnCollisionEnter (Collision col)
+		/*void OnCollisionEnter (Collision col)
     {
         if(col.gameObject.name == "Nêmesis-animada")
         {
             Application.LoadLevel("Boss");
         }
-    }
+    }*/
 }
