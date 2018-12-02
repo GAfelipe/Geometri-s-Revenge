@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Conquistas.unity
-=======
-- path: Assets/Scenes/Fase-2.unity
->>>>>>> 3d8286b40bafebdf8984560dd64ec5c72c51e9f1
   isLoaded: 1
   isActive: 1
