@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -405,7 +405,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (6)
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
@@ -3911,7 +3911,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (5)
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
@@ -5219,6 +5219,7 @@ MonoBehaviour:
   currentTime: 0
   gatilho: {fileID: 831181412}
   direita: 0
+  NumeroCena: 0
   jumpSound: {fileID: 8300000, guid: 613d8ff1b0045ab46a1634007b5cd832, type: 3}
 --- !u!135 &831181412
 SphereCollider:
@@ -15209,7 +15210,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (2)
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
@@ -15544,7 +15545,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (1)
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
@@ -20356,6 +20357,10 @@ Prefab:
     - target: {fileID: 400000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_LocalScale.z
       value: 5.5919566
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
+      propertyPath: m_Name
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}

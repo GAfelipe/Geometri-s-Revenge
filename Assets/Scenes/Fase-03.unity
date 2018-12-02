@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3164,7 +3164,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (9)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -4272,7 +4272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (4)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -10106,7 +10106,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (11)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -10632,7 +10632,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (10)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -12359,7 +12359,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (2)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -17839,7 +17839,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (12)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
@@ -18845,7 +18845,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_Name
-      value: untitled (5)
+      value: Coin
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 87f8fc77cdda1764d9b9d9596e5a9b89, type: 3}
       propertyPath: m_TagString
