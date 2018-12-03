@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Bandeira : MonoBehaviour {
 
+
+	public int cenaNumero;
 	// Use this for initialization
 	void Start () {
 		
@@ -13,11 +17,17 @@ public class Bandeira : MonoBehaviour {
 	void Update () {
 		
 	}
-		/*void OnCollisionEnter (Collision col)
+		void OnCollisionEnter (Collision col)
     {
         if(col.gameObject.name == "Nêmesis-animada")
         {
-            Application.LoadLevel("Boss");
+        	if(cenaNumero > PlayerPrefs.GetInt("CheckPoint")){
+        		 PlayerPrefs.SetInt("CheckPoint", cenaNumero);
+       	   }
+           SceneManager.LoadScene (cenaNumero);
+           
         }
-    }*/
+    }
+
+	
 }

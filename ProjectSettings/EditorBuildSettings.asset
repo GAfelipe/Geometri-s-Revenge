@@ -9,15 +9,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu 3D.unity
     guid: fa0913115ac1d4fba8b9d10280f4b04d
   - enabled: 1
-    path: Assets/Scenes/Fase-1.unity
-    guid: 051a9f617b8aee74f94174f0bfa37758
+    path: Assets/Scenes/Fase-01.unity
+    guid: 796c504cdf1f382499ab04af619c7c6a
+  - enabled: 1
+    path: Assets/Scenes/Fase-02.unity
+    guid: 972656e0cb412904aa41077873f06cf3
+  - enabled: 1
+    path: Assets/Scenes/Fase-03.unity
+    guid: eaca0293a8927fa4dbe92e7f26771522
+  - enabled: 1
+    path: Assets/Scenes/Fase-04.unity
+    guid: 5cbbfcf858dfa6c45a4737c337039b15
+  - enabled: 1
+    path: Assets/Scenes/Fase-05.unity
+    guid: fdae5228b6ee92741877aa3eee0551ad
+  - enabled: 1
+    path: Assets/Scenes/Fase-06.unity
+    guid: 9b80dc0ad5f2f8c4c9c0b81be1649a39
+  - enabled: 1
+    path: Assets/Scenes/Fase-07.unity
+    guid: 49cf8ef3d9b23b64fbe8313cb7a86be9
+  - enabled: 1
+    path: Assets/Scenes/Fase-08.unity
+    guid: 89ce6b751e43b2a478f756a7fbe5ddf7
+  - enabled: 1
+    path: Assets/Scenes/Fase-09.unity
+    guid: df4db323f1864bb4cb0836f44df2a4d7
+  - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: daa08251aedbf504486c9a2d10c2ed6d
   - enabled: 1
     path: Assets/Scenes/Conquistas.unity
     guid: 27837536a47b94d4aaa10448222934f2
   - enabled: 1
     path: Assets/Scenes/Morte.unity
     guid: dc5c5398bf36d67408738adc44bfb1a3
-  - enabled: 1
-    path: Assets/Scenes/Boss.unity
-    guid: daa08251aedbf504486c9a2d10c2ed6d
   m_configObjects: {}

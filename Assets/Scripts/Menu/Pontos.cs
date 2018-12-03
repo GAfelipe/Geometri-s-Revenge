@@ -25,12 +25,12 @@ public class Pontos : MonoBehaviour {
 	void Update () {
 		fase1.text = PlayerPrefs.GetInt("current1").ToString();
 		fase2.text = PlayerPrefs.GetInt("current2").ToString();
-		/*fase3.text = PlayerPrefs.GetInt("current3").ToString();
+		fase3.text = PlayerPrefs.GetInt("current3").ToString();
 		fase4.text = PlayerPrefs.GetInt("current4").ToString();
 		fase5.text = PlayerPrefs.GetInt("current5").ToString();
 		fase6.text = PlayerPrefs.GetInt("current6").ToString();
 		fase7.text = PlayerPrefs.GetInt("current7").ToString();
 		fase8.text = PlayerPrefs.GetInt("current8").ToString();
-		fase9.text = PlayerPrefs.GetInt("current9").ToString();*/
+		fase9.text = PlayerPrefs.GetInt("current9").ToString();
 	}
 }

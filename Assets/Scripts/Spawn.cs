@@ -49,6 +49,7 @@ public class Spawn : MonoBehaviour {
 			}
 			currentTime = 0;
 		}
+		
 	}
 }
 

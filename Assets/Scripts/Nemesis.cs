@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Nemesis : MonoBehaviour {
 
@@ -14,6 +16,10 @@ public class Nemesis : MonoBehaviour {
     private bool IsGrounded;
     public bool direita;
 
+    
+
+    public int pontosGR;
+
     public static int pontos1;
     public static int pontos2;
     public static int pontos3;
@@ -23,6 +29,9 @@ public class Nemesis : MonoBehaviour {
     public static int pontos7;
     public static int pontos8;
     public static int pontos9;
+    public static int pontos10;
+
+    public Text Pontos;
 
     public int NumeroCena;
 
@@ -31,6 +40,8 @@ public class Nemesis : MonoBehaviour {
     private AudioSource source;
     private float volLowRange = .5f;
     private float volHighRange = 1.0f;
+
+    private GameObject tempPrefab;
 
 
     
@@ -44,6 +55,7 @@ public class Nemesis : MonoBehaviour {
 		IsGrounded = true;
 		currentTime = 1.5f;
 		direita = true;
+		pontosGR = 0;
 
 	
 	}
@@ -51,7 +63,11 @@ public class Nemesis : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		
+		
+
 		currentTime += Time.deltaTime;
+		Pontos.text = pontosGR.ToString();
 		
 
 		if(transform.position.y <= 0){
@@ -109,8 +125,21 @@ public class Nemesis : MonoBehaviour {
 			Application.LoadLevel("Morte");
 
 		}
-		if (collider.tag =="Coin") {
-			if(NumeroCena == 1){
+		
+
+		//-------------------------------------------------------------------------------------
+
+		if (collider.tag =="Bandeira") {
+			
+
+		}
+	}
+	void OnCollisionEnter (Collision col)
+    {
+        if(col.gameObject.name == "Coin")
+        {
+        	pontosGR+=1;
+        	if(NumeroCena == 1){
 				pontos1 += 1;
 			}
 			
@@ -146,14 +175,12 @@ public class Nemesis : MonoBehaviour {
 			if(NumeroCena == 9){
 				pontos9 += 1;
 			}
-			
-
-		}
-
-		//-------------------------------------------------------------------------------------
-
-		if (collider.tag =="Bandeira") {
-			if(NumeroCena == 1){
+			if(NumeroCena == 10){
+				pontos9 += 1;
+			}
+        }
+        if(col.gameObject.name == "bandeira"){
+        	if(NumeroCena == 1){
 				if(PlayerPrefs.GetInt("current1")<pontos1){
 					PlayerPrefs.SetInt("current1", pontos1);
 				}
@@ -206,9 +233,14 @@ public class Nemesis : MonoBehaviour {
 					PlayerPrefs.SetInt("current9", pontos9);
 				}
 			}
+			if(NumeroCena == 10){
+				if(PlayerPrefs.GetInt("current10")<pontos10){
+					PlayerPrefs.SetInt("current10", pontos10);
+				}
+			}
+        }
 
-		}
-	}
+    }
 
 	
 
