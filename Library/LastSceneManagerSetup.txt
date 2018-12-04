@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Boss.unity
+=======
+- path: Assets/Scenes/Fase-04.unity
+>>>>>>> 0bf43b8178c8ba7a11f493ed50fde50d42724d40
   isLoaded: 1
   isActive: 1
