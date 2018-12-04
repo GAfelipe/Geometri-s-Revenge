@@ -1290,7 +1290,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 215339669}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.02, z: 0.020000003}
@@ -5629,7 +5629,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 922502146}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.02, z: 0.020000003}
@@ -22076,7 +22076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec164fd7cdaef4340ac759232fe12afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balaPrefab: {fileID: 1742783501913580, guid: ae85a1e178f3b14498d55e94bfe97992, type: 2}
+  balaPrefab: {fileID: 1885374171381944, guid: 08fc941c95476bc47a37f77483c6329e, type: 2}
   nem: {fileID: 831181410}
   currentTime: 0
   nem2: {fileID: 831181406}

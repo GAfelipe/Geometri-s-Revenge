@@ -18601,7 +18601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec164fd7cdaef4340ac759232fe12afe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balaPrefab: {fileID: 1742783501913580, guid: ae85a1e178f3b14498d55e94bfe97992, type: 2}
+  balaPrefab: {fileID: 1885374171381944, guid: 08fc941c95476bc47a37f77483c6329e, type: 2}
   nem: {fileID: 831181410}
   currentTime: 0
   nem2: {fileID: 831181406}
