@@ -19,5 +19,11 @@ public class NewGame : MonoBehaviour {
 		PlayerPrefs.SetInt("current9", 0);
 
 		SceneManager.LoadScene (sceneIndex);
+
+	}
+	public void Update(){
+		if (Input.GetKeyDown(KeyCode.O)){
+			PlayerPrefs.SetInt("CheckPoint", 11);
+	}
 	}
 }
