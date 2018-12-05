@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1360
     height: 636
-  m_MinSize: {x: 917, y: 421}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 915, y: 421}
+  m_MaxSize: {x: 22010, y: 10021}
   vertical: 0
-  controlID: 21315
+  controlID: 872
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 21316
+  controlID: 873
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,9 +310,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 783df9ff
-    m_LastClickedID: -443016
-    m_ExpandedIDs: b842f9ff7c72f9ffec76f9ff4679faffbe49fbff50dcfbffec01feff5817feff5a26feff1c34feff1a42feff3a54feff1466feff9e86feff4e9bfeff60bdfeffa6c3feff10c9feff18f6ffff82fbffff00000000f43400007a360000866b0000666f0000387e0000ae7f0000a0850000d0860000309600008a970000b49d0000fc9e0000e2a40000e6a50000daaa000004ac00004ab20000e4b30000a4ba000026bb00000ebe000040be00009afb0000b0fb0000f8fb0000c2fc0000cafc00004efd0000e24201000a440100e0490100
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a270ffffa071ffffe672ffff1673ffff8a73ffffd876ffffb878ffff627affff807dffff8e7dffff687fffffe082ffff2687ffffd489ffff748affff6ab9ffff50c3ffff42c4ffff84c5ffffb0c5ffff20c6ffff6ac9ffff46cbffffecccffff06d0ffff04d2ffffdad3ffff4ed7ffff90dbffff9cdbffff38dcffff82fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -331,7 +331,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 7}
     m_SearchString: 
   m_ExpandedScenes:
-  - Menu 3D
+  - Fase-01
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -354,8 +354,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 636
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -398,20 +398,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Images
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\Cliente Especial\\Desktop\\Gest\xE3o de projetos\\Geometri-s-Revenge"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e2c0000
-    m_LastClickedID: 11422
-    m_ExpandedIDs: 00000000a42b0000322e0000fe2f000000ca9a3b
+    m_SelectedIDs: 08300000
+    m_LastClickedID: 12296
+    m_ExpandedIDs: 00000000a62b0000342e00000830000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a42b0000322e0000fe2f000000ca9a3b
+    m_ExpandedIDs: 00000000a62b0000342e00000830000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -464,9 +464,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 783df9ff
-    m_LastClickedInstanceID: -443016
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1659.3137}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &11
@@ -512,8 +512,8 @@ MonoBehaviour:
     y: 0
     width: 304
     height: 636
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}

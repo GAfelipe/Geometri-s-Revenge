@@ -20,16 +20,16 @@ public class Nemesis : MonoBehaviour {
 
     public int pontosGR;
 
-    public static int pontos1;
-    public static int pontos2;
-    public static int pontos3;
-    public static int pontos4;
-    public static int pontos5;
-    public static int pontos6;
-    public static int pontos7;
-    public static int pontos8;
-    public static int pontos9;
-    public static int pontos10;
+    public  int pontos1;
+    public  int pontos2;
+    public  int pontos3;
+    public  int pontos4;
+    public  int pontos5;
+    public  int pontos6;
+    public  int pontos7;
+    public  int pontos8;
+    public  int pontos9;
+    public  int pontos10;
 
     public Text Pontos;
 
