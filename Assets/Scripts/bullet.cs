@@ -31,6 +31,10 @@ void OnTriggerEnter(Collider collider){
 			Destroy (transform.gameObject);
 
 		}
+		if (collider.tag =="Cristal") {
+			Destroy (transform.gameObject);
+
+		}
 	}
 
 }

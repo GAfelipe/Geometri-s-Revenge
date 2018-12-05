@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Estalactite1.cs" />
      <Compile Include="Assets\Scripts\Menu\Conquistas.cs" />
      <Compile Include="Assets\Scripts\Menu\Continuar.cs" />
+     <Compile Include="Assets\Scripts\Menu\Fase.cs" />
      <Compile Include="Assets\Scripts\Menu\NewGame.cs" />
      <Compile Include="Assets\Scripts\Menu\Pause.cs" />
      <Compile Include="Assets\Scripts\Menu\Pontos.cs" />

@@ -12,6 +12,7 @@ TagManager:
   - estalactite
   - Bandeira
   - Coin
+  - Cristal
   layers:
   - Default
   - TransparentFX

@@ -10,10 +10,12 @@ public class Cristal : MonoBehaviour {
 	public int vida;
 	public Slider slide;
 	public GameObject bandeiraPrefab;
+	public GameObject menu;
 
 	// Use this for initialization
 	void Start () {
 		vida = 10;
+		menu.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -25,9 +27,8 @@ public class Cristal : MonoBehaviour {
         }
 
 		if(vida==0){
-			GameObject tempPrefab = Instantiate (bandeiraPrefab) as GameObject;
-
-			tempPrefab.transform.position = new Vector3 (transform.position.x,transform.position.y, transform.position.z);
+			menu.SetActive(true);
+			
 			Destroy (transform.gameObject);
 		}
 	}
