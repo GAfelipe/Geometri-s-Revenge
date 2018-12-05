@@ -125,14 +125,6 @@ public class Nemesis : MonoBehaviour {
 			Application.LoadLevel("Morte");
 
 		}
-		
-
-		//-------------------------------------------------------------------------------------
-
-		if (collider.tag =="Bandeira") {
-			
-
-		}
 	}
 	void OnCollisionEnter (Collision col)
     {

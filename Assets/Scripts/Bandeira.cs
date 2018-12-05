@@ -23,8 +23,11 @@ public class Bandeira : MonoBehaviour {
         {
         	if(cenaNumero > PlayerPrefs.GetInt("CheckPoint")){
         		 PlayerPrefs.SetInt("CheckPoint", cenaNumero);
+        		 SceneManager.LoadScene (cenaNumero);
        	   }
+       	   else{
            SceneManager.LoadScene (cenaNumero);
+       		}
            
         }
     }
