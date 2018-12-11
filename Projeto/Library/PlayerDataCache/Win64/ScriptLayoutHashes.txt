@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Cliente Especial/Desktop/Gestão de projetos/executavel/Geometry's Revenge.exe
+C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Jogo/Geometry's Revenge.exe
 SceneListBegin?
 Assets/Scenes/Menu 3D.unity
 Assets/Scenes/Fase-01.unity

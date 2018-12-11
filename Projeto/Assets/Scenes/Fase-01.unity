@@ -4815,6 +4815,16 @@ MonoBehaviour:
   gatilho: {fileID: 831181412}
   direita: 0
   pontosGR: 0
+  pontos1: 0
+  pontos2: 0
+  pontos3: 0
+  pontos4: 0
+  pontos5: 0
+  pontos6: 0
+  pontos7: 0
+  pontos8: 0
+  pontos9: 0
+  pontos10: 0
   Pontos: {fileID: 1494611222}
   NumeroCena: 1
   jumpSound: {fileID: 8300000, guid: 613d8ff1b0045ab46a1634007b5cd832, type: 3}
@@ -19592,7 +19602,6 @@ GameObject:
   - component: {fileID: 1981740617}
   - component: {fileID: 1981740616}
   - component: {fileID: 1981740615}
-  - component: {fileID: 1981740619}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -19676,26 +19685,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1981740619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981740614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13909e459fe14c84aa450d1074e797d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fase1: {fileID: 0}
-  fase2: {fileID: 0}
-  fase3: {fileID: 0}
-  fase4: {fileID: 0}
-  fase5: {fileID: 0}
-  fase6: {fileID: 0}
-  fase7: {fileID: 0}
-  fase8: {fileID: 0}
-  fase9: {fileID: 0}
 --- !u!1001 &1987402487
 Prefab:
   m_ObjectHideFlags: 0

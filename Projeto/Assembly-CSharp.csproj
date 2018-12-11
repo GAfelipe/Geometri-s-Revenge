@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CCF158F2-D382-7383-5D9E-C16A494980B6}</ProjectGuid>
+    <ProjectGuid>{5E654687-AB6C-4253-697D-CD95BF6C5691}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -95,16 +95,16 @@
      <None Include="Assets\Menu-Background\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Projeto/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Projeto/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Projeto/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Cliente Especial/Desktop/Gestão de projetos/Geometri-s-Revenge/Projeto/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
